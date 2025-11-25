@@ -1,0 +1,17 @@
+{
+  "name": "tasteray-articles",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to proxy and rewrite article URLs for TasteRay",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251125.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.50.0"
+  }
+}
+
